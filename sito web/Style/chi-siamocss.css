@@ -1,0 +1,81 @@
+*{
+    background-color: rgb(147, 255, 228);
+    margin-left: 1%;
+}
+@font-face {
+    font-family: sign1;
+    src: url(housttely-signature-font/HousttelySignature-GOonZ.ttf);
+}
+@font-face {
+    font-family: sign2;
+    src: url(southam-demo/Southam\ Demo.otf);
+}
+@font-face {
+    font-family: sign3;
+    src: url(calvin-fallen-font/CalvinFallen-1GDgg.otf);
+}
+@font-face {
+    font-family: sign4;
+    src: url(creattion-demo/Creattion\ Demo.otf);
+}
+@font-face {
+    font-family: sign5;
+    src: url(JustSignature-92w7.ttf);
+}
+.menu_ul{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    list-style-type: none; /*serveper togliere i punti che ci sono di default nell'elenco*/
+    display: flex;/*per mettere sulla stessa linea*/
+    gap: 20px;/*per lo spazio traglielemnti li*/
+}
+.menu_li1{
+    color: black;
+}
+.menu{
+
+    margin: auto;
+}
+h1{
+    font-size: 3em;
+}
+
+#marchio{
+    width: 20%;
+    height: 3%;
+    display: block;
+}
+#zuzzu{
+width: 20%;
+height: 3%;
+display: block;
+}
+#rizzo{
+    width: 20%;
+    height: 1%;
+    display: block;
+}
+#calza{
+    width: 20%;
+    height: 3%;
+    display: block;
+}
+h2{
+    font-size: 1.5em;
+    font-style: italic;
+}
+.fototessere{
+    margin-left: 1%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 197, 148);
+    width:20%;
+}
+.signature{
+    font-size: 400%;
+    float: right;
+}

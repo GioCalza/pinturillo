@@ -1,0 +1,147 @@
+
+@font-face{
+    font-family: title;
+    src: url(tesla/TESLA.ttf);
+} 
+*{
+    color:rgb(0, 197, 148);
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+h1{
+    color:rgb(0, 197, 148);
+    text-align: center;
+    font-family: title;
+    font-size: 400%;
+}
+canvas#board{
+    border: 3px solid rgb(0, 197, 148);
+    border-radius: 20px;
+    width: 950px;
+    height: 500px;
+    background-color: rgb(147, 255, 228);
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 1%;
+}
+button{
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button#start{
+    font-family: title;
+    font-size: 170%;
+    color: white;
+    background-color: rgb(0, 197, 148);
+    width: 150px;
+    border-radius: 20px;
+    float: left;
+}
+
+button.dimension{
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+
+}
+
+button#dimension1 img{
+    width:75%;
+}
+button#dimension2 img{
+
+    width: 50%;
+}
+button#dimension3 img{
+    
+    width: 25%;
+}
+button#dimension4 img{
+    
+    width: 100%;
+}
+
+
+
+div#timer{
+    border-width: 2px;
+    border-color: rgb(0, 197, 148);
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    color: black;
+    text-align: center;
+    font-family: fantasy;
+    font-size:300%;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+div#word{
+    color: rgb(0, 197, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 450%;
+    text-align: center;
+    width: 40%;
+    margin-left: 50%;
+
+
+}
+
+div#left{
+    background-color: rgb(0, 197, 148);
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    font-size: 250%;
+    font-family: tesla;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    float: left;
+    width: 400px;
+    height: 100%;
+    color: white;
+}
+
+button#mutebutton{
+    border-color: rgb(0, 197, 148);
+    background-color: rgb(147, 255, 228);
+    float: left;
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+button#mutebutton img{
+    width: 80%;
+    background-color: rgb(147, 255, 228);
+}
+
+
+
+button.hour{
+    border: none;
+    background-color: rgb(0, 197, 148);
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+button.hour img{
+    width: 80%;
+    background-color: rgb(0, 197, 148);
+}
+

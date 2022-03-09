@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <div id="style">
+        <link rel="stylesheet" href="Style/style.css">
+    </div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinturillo</title>
+</head>
+<body>
+    
+    <button id="mutebutton" onclick="mute_start();">
+
+        <img src="Images/volume.png" alt="">
+
+    </button>
+
+    
+    </div>
+    <h1>Pinturillo</h1>
+    
+    
+    <div id="startbutton" >
+        <button id="start" onclick="timer(); startgame();" >Start</button>
+    </div>
+    <div id="timer" style="text-align: center; vertical-align: middle;">
+        180
+    </div>
+
+    <div id="word">
+        ---
+    </div>
+    
+    <canvas id="board" > 
+        
+    </canvas>
+    <br>
+    <div id="left" style="margin-left: 1%; border-radius: 20px;" >
+
+    <button id="dimension4" class="dimension" onclick="penna_enorme()">
+            <img src="Images/black-circle_318-9051.jpeg" alt="">
+    </button>
+    <button id="dimension1" class="dimension" onclick="penna_grande()">
+            <img src="Images/black-circle_318-9051.jpeg" alt="">
+    </button>
+    
+    <button id="dimension2" class="dimension" onclick="penna_media()">
+        <img src="Images/black-circle_318-9051.jpeg" alt="">
+    </button>
+    
+    <br>
+    <button id="colore1" onclick="changecolor1()" style="background-color: red;border: 1px white solid;">
+
+    </button>
+    <button id="colore5" onclick="changecolor5()" style="background-color: rgb(1, 150, 63);border: 1px white solid;">
+
+    </button>
+    <button id="colore7" onclick="changecolor7()" style="background-color: blue;border: 1px white solid;">
+
+    </button> 
+    <button id="colore12" onclick="changecolor12()" style="background-color: rgb(165, 87, 42); border: 1px white solid;">
+
+    </button>
+   
+    
+     <button id="colore2" onclick="changecolor2()" style="background-color: rgb(255, 166, 0);border: 1px white solid;">
+
+    </button>  <button id="colore4" onclick="changecolor4()" style="background-color: rgb(0, 252, 21);border: 1px white solid;">
+
+    </button> 
+    <button id="colore6" onclick="changecolor6()" style="background-color: rgb(0, 255, 255);border: 1px white solid;">
+
+    </button>
+    <button id="colore14" onclick="changecolor14()" style="background-color: burlywood; border: 1px white solid;">
+
+    </button>
+    <button id="colore3" onclick="changecolor3()" style="background-color: yellow;border: 1px white solid;">
+
+    </button>
+    
+    <button id="colore16" onclick="changecolor16()" style="background-color:teal; border: 1px white solid;">
+
+    </button> 
+
+    <button id="colore8" onclick="changecolor8()" style="background-color: rgb(166, 0, 231);border: 1px white solid;">
+
+    </button>
+     <button id="colore13" onclick="changecolor13()" style="background-color: pink; border: 1px white solid;">
+
+    </button>
+    <button id="colore10" onclick="changecolor10()" style="background-color: white; border: 1px white solid;">
+
+    </button> 
+    <button id="colore11" onclick="changecolor11()" style="background-color: grey; border: 1px white solid;">
+
+    </button>
+    <button id="colore9" onclick="changecolor9()" style="background-color: black; border: 1px white solid;">
+
+    </button>
+    <button id="colore15" onclick="changecolor15()" style="background-color: lightgray; border: 1px white solid;">
+
+    </button>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script src="Script/main.js"></script>
+    <script src="Script/sound.js"></script>
+
+</body>
+</html>

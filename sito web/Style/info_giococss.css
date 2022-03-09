@@ -1,0 +1,41 @@
+*{
+    background-color: rgb(147, 255, 228);
+    margin-left: 1%;
+}
+h1{
+    font-size: 3em;
+}
+.menu_ul{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    list-style-type: none; /*serveper togliere i punti che ci sono di default nell'elenco*/
+    display: flex;/*per mettere sulla stessa linea*/
+    gap: 20px;/*per lo spazio traglielemnti li*/
+}
+.menu_li1{
+    color: black;
+}
+.menu{
+
+    margin: auto;
+}.start{
+    display: block;
+}
+.griglia{
+    display: block;
+}
+.penna{
+    display: block;
+}
+#spie_img{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.img_spieg{
+    width: 30%;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 197, 148);
+}

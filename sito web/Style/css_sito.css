@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(147, 255, 228);
+    margin-left: 1%;
+}
+
+.menu_ul{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    list-style-type: none; /*serveper togliere i punti che ci sono di default nell'elenco*/
+    display: flex;/*per mettere sulla stessa linea*/
+    gap: 20px;/*per lo spazio traglielemnti li*/
+}
+.menu_li1{
+    color: black;
+}
+.menu{
+
+    margin: auto;
+}
+h1{
+    font-size: 3em;
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+}
+p{
+    font-size: 1.5em;
+    text-align: left;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.ps{
+    font-size: 0.9em;
+    font-style: italic;
+}
